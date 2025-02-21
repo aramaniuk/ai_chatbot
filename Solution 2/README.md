@@ -84,7 +84,7 @@ We will be using `Poetry`, a versatile tool for Python projects that simplifying
     poetry install
     ```
 
-4. Install `playwright`, an open-source tool for auomating web testing in python. We'll use it to get some data for our LLM.
+4. Install `playwright`, an open-source tool for automating web testing in python. We'll use it to get some data for our LLM.
     ```bash
     playwright install
     ```
@@ -147,7 +147,7 @@ The project is structured in a modularized manner, focusing on building and runn
 1. We need to be able to point Jupyter notebook to our virtual environment that has the right packages and libraries.  
 
     ```bash
-    ipython kernel install --user --name=venv
+    ipython kernel install --user --name=.venv
     ```
 
 1. Run the command below from the virtual environment to launch the [notebook](app/chatbot_gradio_runner.ipynb) in a browser. Once ran, select the `venv` kernel and continue executing the cells.
